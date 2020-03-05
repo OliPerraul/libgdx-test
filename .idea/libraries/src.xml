@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../libgdx/gdx/target/gdx-1.9.11-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/backends/gdx-backend-lwjgl/target/gdx-backend-lwjgl-1.9.11-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/backends/gdx-backend-lwjgl3/target/gdx-backend-lwjgl3-1.9.11-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/gdx/libs/gdx-natives.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/backends/gdx-backend-lwjgl/libs/lwjgl.jar!/" />
+      <root url="file://$PROJECT_DIR$/../libgdx/gdx/target" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/gdx/libs/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/backends/gdx-backend-lwjgl/libs/gdx-backend-lwjgl-natives.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/backends/gdx-backend-lwjgl/libs/jlayer-1.0.1-libgdx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../libgdx/backends/gdx-backend-lwjgl/libs/jorbis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../libgdx/backends/gdx-backend-lwjgl/libs/jlayer-1.0.1-libgdx.zip!/src" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../libgdx/gdx/target" recursive="false" />
+  </library>
+</component>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="78">
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="100" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="80">
  <tileset firstgid="1" name="dungeon" tilewidth="16" tileheight="16" tilecount="1479" columns="51">
   <image source="fantasy/dungeon.png" width="816" height="464"/>
   <terraintypes>
@@ -463,6 +463,19 @@
  </layer>
  <objectgroup id="10" name="Objects" opacity="0.5">
   <object id="63" name="Avatar" gid="1567" x="936" y="460" width="32" height="32"/>
-  <object id="77" template="Transition.tx" x="944" y="252"/>
+  <object id="77" template="Transition.tx" x="944" y="252" visible="0">
+   <properties>
+    <property name="Door" type="int" value="4"/>
+    <property name="Room" value="Dungeon"/>
+   </properties>
+  </object>
+  <object id="78" name="Square" x="656" y="320" width="72" height="24">
+   <properties>
+    <property name="Hello" value="1"/>
+   </properties>
+  </object>
+  <object id="79" name="Elipse" x="472" y="200" width="56" height="20" visible="0">
+   <ellipse/>
+  </object>
  </objectgroup>
 </map>
